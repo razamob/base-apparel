@@ -1,0 +1,27 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #333;
+    background-image: linear-gradient(#FFFDFE, #FFF3F3);
+
+    @media(min-width:900px){
+        background-image: url('assets/images/bg-pattern-desktop.svg');
+        background-size: contain;
+    }
+}
+
+html, body{
+    height: 100%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+input:focus{
+    outline-offset: none;
+}
+
+:focus{
+    outline: none;
+}

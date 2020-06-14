@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero__container">
+      <div class="hero__logo__container">
+        <div class="hero__logo__inner-container">
+        <img class="hero__logo" src="./assets/images/logo.svg" alt="Logo">
+        </div>
+      </div>
+    <div class="hero__img__container">
+      <picture>
+        <source srcset="./assets/images/hero-desktop.jpg" media="(min-width: 881px)" />
+        <img class="hero__img" srcset="./assets/images/hero-mobile.jpg" alt="girl in orange shirt">
+      </picture>
+    </div>
+    <div class="hero__content__container">
+      <h1 class="hero__header">
+        <span class="hero__header-colour">We're</span> coming soon
+      </h1>
+    <p class="hero__content">
+  Hello fellow shoppers! We're currently building our new fashion store. 
+  Add your email below to stay up-to-date with announcements and our launch deals.
+    </p>
+    <div class="hero__input__outer-container">
+    <div class="hero__input-container">
+    <div class="hero__input-error">
+      <img src="./assets/images/icon-error.svg" alt="error icon">
+    </div>
+    <input class="hero__input" type="email" placeholder="Email Address"> 
+    <button class="hero__submit-button"></button>
+    <div class="hero__input-arrow">
+      <img src="./assets/images/icon-arrow.svg" alt="arrow">
+    </div>
+  </div>
+    <div class="hero__error-container">
+      <p class="hero__error-msg">Please provide a valid email</p>
+    </div>
+  </div>
+  </div>
+</div>
+</section>
+</body>
+</html>
